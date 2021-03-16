@@ -1,0 +1,10 @@
+{
+  "name": "projeto9",
+  "version": "1.0",
+  "description": "Sistema de compartilhamento de imagens com TDD",
+  "main": "app.js",
+  "repository": "www.git.com",
+  "author": "gilmarb",
+  "license": "free",
+  "private": null
+}
