@@ -9,7 +9,7 @@ describe("Cadastro de usuario", ()=>{
         let time = Date.now();
         let email = `${time}@gmail.com`;
 
-        let user = {nome: "gilmar", email, password: "123456"};
+        let user = {name: "gilmar", email, password: "1234563"};
 
         return request.post('/api/user').send(user).then(res =>{
             expect(res.statusCode).toEqual(200)
