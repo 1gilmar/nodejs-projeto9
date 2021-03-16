@@ -6,6 +6,12 @@ app.use(express.urlencoded({extended: false }))
 app.use(express.json());
 
 mongose.connect('mongodb://localhost:27017/guiapics', {useNewUrlParser: true, useUnifiedTopology: true})
+.then(()=>{
+
+})
+.catch((erro)=>{
+    console.log(erro);
+})
 
 app.get('/',(req, res)=>{
     res.json({sucesso: true});
