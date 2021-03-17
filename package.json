@@ -9,7 +9,8 @@
   "private": null,
   "scripts": {
     "test": "jest",
-    "start": "nodemon src/server.js"
+    "start": "nodemon src/server.js",
+    "run": "yarn src/server.js"
   },
   "dependencies": {
     "@types/jest": "^26.0.20",
